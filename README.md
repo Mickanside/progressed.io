@@ -1,46 +1,15 @@
-# What is progressed.io?
+Very simple PHP/HTML version of fehmicansaglam/progressed.io.
+Thanks to him for his Scala version.
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/fehmicansaglam/progressed.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+This fork include some features from original version :
+✅ Progressbar from 0% to 100%
+✅ Color from red (0%) to green (100%)
+❌ Title
+❌ Custom bar size
+❌ Custom suffix
 
-http://progressed.io/bar/28
-![Progress](http://progressed.io/bar/28)   
+# How to use ?
 
-http://progressed.io/bar/28?title=progress
-![Progress](http://progressed.io/bar/28?title=progress)   
+http://SERVER/?int=PERCENT
 
-http://progressed.io/bar/58
-![Progress](http://progressed.io/bar/58)   
-
-http://progressed.io/bar/59?title=completed
-![Progress](http://progressed.io/bar/58?title=completed)  
-
-http://progressed.io/bar/91
-![Progress](http://progressed.io/bar/91)  
-
-http://progressed.io/bar/91?title=done
-![Progress](http://progressed.io/bar/91?title=done)   
-
-http://progressed.io/bar/7?scale=10&title=mark&suffix=X
-![Progress](http://progressed.io/bar/7?scale=10&title=mark&suffix=X)   
-
-# Who is using progressed.io?
-
-https://github.com/f/wolves
-
-https://github.com/stringparser/gulp-runtime
-
-https://github.com/PlayFrameworkTR/translation-project
-
-https://github.com/MahdiZareie/PyShop
-
-https://github.com/johnRivs/wunderlist
-
-https://github.com/luizperes/status-projects
-
-https://github.com/cgimenes/H-99
-
-https://github.com/ImminentFate/CompactGUI/
-
-*If you want to be listed here please send a PR.*
-
-
+Exemple for a 55% progressbar : https://php-progressed.server/?int=55 
