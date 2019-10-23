@@ -1,4 +1,4 @@
-Very simple PHP/HTML version of https://github.com/fehmicansaglam/progressed.io.
+Very simple PHP/HTML/SVG version of https://github.com/fehmicansaglam/progressed.io.
 Thanks to him for his Scala version.
 
 This fork include some features from original version :
